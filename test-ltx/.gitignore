@@ -1,0 +1,25 @@
+# 환경변수 (API 키 보호)
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+
+# 생성된 비디오 파일
+*.mp4
+output_*.mp4
+
+# IDE
+.vscode/
+.idea/
+
+# 모델 캐시 (선택적)
+# .cache/

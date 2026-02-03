@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "bkend": {
+      "command": "npx",
+      "args": ["@bkend/mcp-server"],
+      "env": {
+        "BKEND_API_KEY": "${BKEND_API_KEY}",
+        "BKEND_PROJECT_ID": "${BKEND_PROJECT_ID}"
+      }
+    }
+  }
+}

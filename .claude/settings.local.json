@@ -8,7 +8,11 @@
       "Bash(git init:*)",
       "Bash(git remote add:*)",
       "Bash(git branch:*)",
-      "Bash(dir:*)"
+      "Bash(dir:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(.venvScriptspython.exe -c \"import sys; print\\(sys.version\\)\")",
+      "Bash(.venvScriptspip.exe show torch)"
     ]
   }
 }

@@ -1,8 +1,30 @@
 {
-  "sessionCount": 8,
+  "sessionCount": 36,
   "lastSession": {
-    "startedAt": "2026-02-02T08:35:13.028Z",
+    "startedAt": "2026-02-03T09:41:11.402Z",
     "platform": "claude",
-    "level": "Starter"
+    "level": "Dynamic"
+  },
+  "project": {
+    "name": "KRACKER",
+    "description": "AI-powered video generation platform with LTX-2 integration",
+    "level": "Dynamic",
+    "stack": {
+      "frontend": [
+        "Next.js 14",
+        "TypeScript",
+        "Tailwind CSS",
+        "TanStack Query",
+        "Zustand"
+      ],
+      "backend": [
+        "bkend.ai BaaS"
+      ],
+      "ai": [
+        "LTX-2",
+        "AMD ROCm"
+      ]
+    },
+    "upgradePath": "Enterprise"
   }
 }
